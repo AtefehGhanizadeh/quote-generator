@@ -142,7 +142,7 @@ getQuoteArrayFromApi()
 
 function tweetQuote(){
 
-    const twitterUrl=`https://twitter.com/internet/tweet?text=${quote.textContent}-${author.textContent}`
+    const twitterUrl=`https://twitter.com/internet/tweet?text=${quoteText.textContent}-${authorText.textContent}`
 
     window.open(twitterUrl, '_blank')
 }
